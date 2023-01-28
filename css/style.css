@@ -1,0 +1,39 @@
+.catalog{
+    margin: 46px 133px 46px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 43px;
+    justify-content: center;
+}
+.card{
+    background: #D9D9D9;
+    width: 261px;
+    margin-bottom: 59px;
+    padding-bottom: 29px;
+    position: relative;
+}
+
+.content{
+    margin: 18px 14px 20px 14px;
+}
+
+.price, .discount, .desc, .name{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.img{
+    width: 233px;
+    height: 123px;
+}
+
+
+.btn{
+    position: absolute;
+    right: 10px;
+    bottom: 3%;
+    cursor: pointer;
+}
